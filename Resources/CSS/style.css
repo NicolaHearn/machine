@@ -1,0 +1,101 @@
+html {
+    font-family: Bahnschrift, Arial, sans-serif;
+    font-size: 16px;
+    background-color: darkslategrey;
+    padding: 0px;
+    color: white;
+}
+
+body {
+    text-align: center;
+    padding: 0px;
+}
+
+header {
+    background-image: url("../headerbackgroundimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    
+}
+
+header img {
+    margin: 0 auto;
+  
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+   
+}
+
+nav li {
+    display: inline;
+    
+    font-size: 1.5rem;
+    margin: 0px 10px;
+    
+}
+
+    nav li a {
+        color: rgb(232, 70, 29);
+        text-decoration: none;
+    }
+
+    .welcome {
+        display: flex;
+        height: 12.5rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+#bikes {
+    background-image: url("../bikebackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 24rem;
+}
+
+.bikecontainer {
+    margin: 0 10rem;
+}
+    .bikecontainer p {
+        text-align: right;
+    }
+
+    .bikecontainer a{
+        color: white;
+    }
+.bikeimages {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.bikecontainer h3 {
+    text-align: left;
+    padding-top: 3rem;
+}   
+
+.bikeimages img {
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-top: 0.5rem;
+}
+
+.mobile {
+    display: none;
+}
