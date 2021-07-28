@@ -17,7 +17,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
-    height: 15.625rem;
+    min-height: 15.625rem;
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -32,8 +32,7 @@ header img {
 nav {
     display: flex;
     justify-content: center;
-    background-color: darkslategrey;
-   
+    background-color: #233030;
 }
 
 nav li {
@@ -57,6 +56,9 @@ nav li {
         flex-direction: column;
     }
 
+    h1 {
+        font-size: 2rem;
+    }
 
 
 #bikes {
@@ -64,7 +66,8 @@ nav li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 24rem;
+    min-height: 24rem;
+    margin: 0px;
 }
 
 .bikecontainer {
@@ -88,6 +91,7 @@ nav li {
 .bikecontainer h3 {
     text-align: left;
     padding-top: 3rem;
+    font-size: 1.5rem;
 }   
 
 .bikeimages img {
@@ -96,6 +100,193 @@ nav li {
     margin-top: 0.5rem;
 }
 
-.mobile {
+#accessories {
+    background-image: url("../accessoriesbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 24rem;
+    margin: 0px;
+}
+    
+    
+.accessoriescontainer {
+    margin: 0 10rem;
+}
+
+.accessoriescontainer p {
+    text-align: right;
+}
+
+.accessoriescontainer a {
+    color: white;
+}
+
+.accessoriesimages {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.accessoriescontainer h3 {
+    text-align: left;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.accessoriesimages img {
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-top: 0.5rem;
+}
+
+.repairs {
+    background-image: url("../repairsbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 40rem;
+    margin: 0px;
+}
+
+    .repairs {
+    margin-top: 0rem;
+}
+
+.repaircontainer {
+    margin: 0 10rem;
+    
+}
+
+.repaircontainer h3 {
+        text-align: left;
+        padding-top: 3rem;
+        font-size: 1.5rem;
+    }
+
+.repairdetails {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.repairdetails div {
+    background-color: white;
+    color: darkslategrey;
+    justify-content: space-between;
+
+      
+}
+
+#repair1 {
+    flex: 1 1 10rem;
+    text-align: left;
+    padding: 0.4rem 0.8rem 0.4rem 0.2rem;
+    margin: 0.5rem 0.5rem 0px 0px;
+    align-items: top;
+}
+.repairdetails h4 {
+    margin-left: 1.5rem;
+}
+
+#repair2 {
+    flex: 1 1 10rem;
+    text-align: left;
+    padding: 0.4rem 0.8rem 0.4rem 0.2rem;
+    margin: 0.5rem 0.5rem 0px 0px;
+}
+
+#repair3 {
+    flex: 2 2 14rem;
+    text-align: left;
+    padding: 0.4rem 0.8rem 0.4rem 0.2rem;
+    margin: 0.5rem 0.5rem 0px 0px;
+}
+
+    .teamcontainer {
+    margin: 0 10rem;
+}
+
+.teamcontainer h3 {
+    text-align: left;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+
+.team {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.teamimages {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+
+.teamimages img {
+    height: 14rem;
+    width: 14rem;
+}
+
+figure {
+    text-align: center;
+ 
+}
+
+.more {
+    margin-top: 1rem;
+}
+
+.morecontainer {
+  
+    margin: 0 10rem;
+   
+}
+
+    .morecontainer h3 {
+        text-align: left;
+        padding-top: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .moreimages {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-flow: row wrap;
+        
+    }
+
+.moreimages img {
+    width: 475px;
+}
+
+.moreimages iframe {
+    width: 475px;
+    
+}
+
+.text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+     
+}
+
+footer {
+    background-color: #233030;
+    text-align: left;
+    height: 2.5rem;
+    padding: 0.4rem;
+    margin-top: 2rem;
+}
+    .mobile {
     display: none;
 }
